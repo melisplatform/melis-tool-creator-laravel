@@ -6,8 +6,8 @@
   "homepage": "https://github.com/melisplatform/melis-tool-creator-laravel",
   "support": {
     "email": "contact@melistechnology.com",
-    "source": "https://github.com/melisplatform/melis-core",
-    "issues": "https://github.com/melisplatform/melis-core/issues",
+    "source": "https://github.com/melisplatform/melis-tool-creator-laravel",
+    "issues": "https://github.com/melisplatform/melis-tool-creator-laravel/issues",
     "docs": "https://www.melistechnology.com/melistechnology/resources/download-documentation/id/17#documentation"
   },
   "authors": [
@@ -32,7 +32,7 @@
   },
   "require": {
     "melisplatform/melis-tool-creator": "*",
-    "melisplatform/melis-platform-framework-laravel": "*",
+    "melisplatform/melis-platform-framework-laravel": "*"
   },
   "autoload": {
     "psr-4": {
