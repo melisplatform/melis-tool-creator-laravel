@@ -10,5 +10,5 @@
 return [
     'tool-creator-third-party-frameworks' => [
         'laravel'
-    ],
+    ]
 ];
