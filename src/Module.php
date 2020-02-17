@@ -11,6 +11,7 @@ namespace MelisToolCreatorLaravel;
 
 use Zend\Mvc\ModuleRouteListener;
 use Zend\Mvc\MvcEvent;
+use Zend\Stdlib\ArrayUtils;
 
 class Module
 {
@@ -23,10 +24,14 @@ class Module
 
     public function getConfig()
     {
-        $config = [
+        $config = [];
+        $configFiles = [
             include __DIR__ . '/../config/module.config.php',
             include __DIR__ . '/../config/toolcreator.config.php',
         ];
+
+        foreach ($configFiles as $file)
+            $config = ArrayUtils::merge($config, $file);
 
         return $config;
     }
