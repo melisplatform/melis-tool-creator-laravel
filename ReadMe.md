@@ -17,8 +17,8 @@ return [
 
 ```
 
-By just activating this module on the Melis Platform Back-office this will automatically added to the selection of 
-Third party frameworks tool creation.
+By just activating this module on the Melis Platform Back-office this will automatically added to the 
+selection of Third party frameworks tool creation.
 
 ## Authors
 * **Melis Technology** - [www.melistechnology.com](https://www.melistechnology.com/)
