@@ -2,9 +2,13 @@
 This module handle the Tool Creator configuration to activate Laravel option on
 the selection in the Tool Creator.
 
-# Clone project
-```bash
-git clone https://github.com/melisplatform/melis-tool-creator-laravel.git
+### Prerequisites
+This module requires ``melisplatform/melis-tool-creator`` installed.
+This will automatically be done when using composer.
+
+### Installing
+```
+composer require melisplatform/melis-tool-creator-laravel
 ```
 
 Enabling Laravel option on Tool creator
