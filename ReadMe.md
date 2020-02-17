@@ -1,5 +1,5 @@
 # Melis Tool Creator Laravel
-This repository contains the Tool Creator configuration to activate Laravel option on
+This module handle the Tool Creator configuration to activate Laravel option on
 the selection in the Tool Creator.
 
 # Clone project
