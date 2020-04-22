@@ -9,9 +9,9 @@
 
 namespace MelisToolCreatorLaravel;
 
-use Zend\Mvc\ModuleRouteListener;
-use Zend\Mvc\MvcEvent;
-use Zend\Stdlib\ArrayUtils;
+use Laminas\Mvc\ModuleRouteListener;
+use Laminas\Mvc\MvcEvent;
+use Laminas\Stdlib\ArrayUtils;
 
 class Module
 {
@@ -27,7 +27,6 @@ class Module
         $config = [];
         $configFiles = [
             include __DIR__ . '/../config/module.config.php',
-            include __DIR__ . '/../config/toolcreator.config.php',
         ];
 
         foreach ($configFiles as $file)
@@ -38,12 +37,12 @@ class Module
 
     public function getAutoloaderConfig()
     {
-        return array(
-            'Zend\Loader\StandardAutoloader' => array(
-                'namespaces' => array(
+        return [
+            'Laminas\Loader\StandardAutoloader' => [
+                'namespaces' => [
                     __NAMESPACE__ => __DIR__ . '/src/' . __NAMESPACE__,
-                ),
-            ),
-        );
+                ],
+            ],
+        ];
     }
 }
