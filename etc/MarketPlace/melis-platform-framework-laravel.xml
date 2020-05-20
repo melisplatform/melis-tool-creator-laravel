@@ -3,7 +3,7 @@
 		<mp_title>Melis Tool Creator Laravel</mp_title>
 		<mp_subtitle>This module handle the Tool Creator configuration to activate Laravel option on the selection in the Tool Creator</mp_subtitle>
 		<mp_description>
-			<![CDATA[]]>
+			<![CDATA[<p>This module handle the Tool Creator configuration to activate Laravel option on the selection in the Tool Creator</p>]]>
 		</mp_description>
 		<mp_maintainers>melisplatform</mp_maintainers>
 		<mp_group>Melis Core</mp_group>
@@ -11,13 +11,13 @@
 	<package_images>
 		<img_1>
 			<mpi_image_title>MelisToolCreator Laravel</mpi_image_title>
-			<mpi_image_file>laravel.jpg</mpi_image_file>
+			<mpi_image_file>laravel-1.jpg</mpi_image_file>
 			<mpi_image_main>1</mpi_image_main>
 		</img_1>
 		<img_1>
 			<mpi_image_title>MelisToolCreator's tool tab</mpi_image_title>
-			<mpi_image_file>laravel.png</mpi_image_file>
-			<mpi_image_main>2</mpi_image_main>
+			<mpi_image_file>laravel-2.jpg</mpi_image_file>
+			<mpi_image_main>0</mpi_image_main>
 		</img_1>
 	</package_images>
 </melis-platform-framework-laravel>
