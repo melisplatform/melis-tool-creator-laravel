@@ -1,4 +1,4 @@
-<melis-platform-framework-laravel>
+<melis-tool-creator-laravel>
 	<package_info>
 		<mp_title>Melis Tool Creator Laravel</mp_title>
 		<mp_subtitle>This module handle the Tool Creator configuration to activate Laravel option on the selection in the Tool Creator</mp_subtitle>
@@ -20,4 +20,4 @@
 			<mpi_image_main>0</mpi_image_main>
 		</img_1>
 	</package_images>
-</melis-platform-framework-laravel>
+</melis-tool-creator-laravel>
