@@ -14,10 +14,10 @@
 			<mpi_image_file>laravel-1.jpg</mpi_image_file>
 			<mpi_image_main>1</mpi_image_main>
 		</img_1>
-		<img_1>
+		<img_2>
 			<mpi_image_title>MelisToolCreator's tool tab</mpi_image_title>
 			<mpi_image_file>laravel-2.jpg</mpi_image_file>
 			<mpi_image_main>0</mpi_image_main>
-		</img_1>
+		</img_2>
 	</package_images>
 </melis-tool-creator-laravel>
