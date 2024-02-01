@@ -31,11 +31,11 @@
 		"melis-module-category": "core"
 	},
 	"require": {
-		"php": "^7.3|^8.0",
-		"melisplatform/melis-tool-creator": "^5.0",
-		"melisplatform/melis-platform-frameworks": "^5.0",
-		"melisplatform/melis-platform-framework-laravel": "^5.0",
-		"melisplatform/melis-platform-framework-laravel-tool-creator": "^5.0"
+		"php": "^8.1|^8.3",
+		"melisplatform/melis-tool-creator": "*",
+		"melisplatform/melis-platform-frameworks": "dev-update/php83",
+		"melisplatform/melis-platform-framework-laravel": "dev-update/php83",
+		"melisplatform/melis-platform-framework-laravel-tool-creator": "dev-update/php83"
 	},
 	"autoload": {
 		"psr-4": {
